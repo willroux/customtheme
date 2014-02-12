@@ -1,0 +1,168 @@
+/*
+Theme Name: customtheme
+Theme URI: http://exemple.com
+Description: Exemple thème enfant
+Author: William Roux
+Template: twentythirteen
+Version: 1.0.0
+*/
+@import url("../twentythirteen/style.css");
+/*Theme customization starts here */
+
+#titre_carte{
+	color:#FFF;
+
+}
+
+.entry-meta a{
+	color:#BC360A;
+	font-weight: bold;
+}
+
+.site-title {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1;
+	margin: auto;
+	padding: 15px;
+	background-color: #eee;
+	text-align: center;
+	top:40px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+
+.site-header .home-link {
+	color: #141412;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 230px;
+	padding: 30px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	background-color: #10656B;
+	color: #fff;
+}
+
+.site {
+	/*background-color: #DDDEEE;*/
+	background-image: url('fond3.png');
+	
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+.navbar {
+	background-color: #220E10;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+	font-weight: bold;
+
+}
+
+.comment-respond {
+	background-image: url('fond3.png');
+	padding: 30px 0;
+}
+
+.post-navigation {
+	background-color: #eee;
+	color: #ca3c08;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 300;
+	padding: 20px 0;
+}
+
+#wrap_carte{
+	height:470px;
+	width: 620px;
+
+	border-radius: 20px;
+	margin: auto; 
+
+
+}
+
+#map{
+	height:380px;
+	width: 500px;
+	border:7px solid #777;
+	border-radius:5px; 
+
+}
+
+.entry-title{
+	background-color: #eee;
+	font-size: 34px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+	text-shadow: 0px 1px 2px white;
+	box-shadow: 0px 6px 4px #222;
+
+}
+
+.entry-title a:hover{
+	color:#10656B;
+}
+
+.entry-content{
+	
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 0px 0px 15px 15px;
+	color:#111;
+	
+	text-shadow: 0px 1px 2px white;
+	box-shadow: 0px 6px 4px #222;
+}
+
+.nav-menu li a{
+	color:#fff;
+}
+
+.entry-thumbnail{
+	padding: 0px;
+	background-size:cover;
+	padding: 10px;
+
+}
+
+.entry-header{
+	margin-bottom:0px;
+	background-color: #eee;
+	border-radius:15px 15px 0px 0px; 
+}
+
+.entry-meta{
+	padding: 20px;
+}
+
+.comments-title{
+	background-color: #eee;
+	padding: 10px;
+
+}
+
+.comments-area{
+	background-color: #eee;
+	 margin: 0 auto;
+    max-width: 604px;
+    width: 100%;
+
+}
+
+.comment-list{
+	padding: 10px;
+
+}
